@@ -14,20 +14,19 @@
     header{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
     .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0}
     .brand{display:flex;align-items:center;gap:11px;font-weight:800;color:var(--navy);font-size:19px}
-    .logo{
-  width:75px;
-  height:75px;
-  object-fit:contain;
-  border-radius:10px;
-  background:#fff;
+    .logo {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  background: transparent;
+  flex-shrink: 0;
 }
-    
-.service-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-top: 14px;
-  border-radius: 10px;
+
+@media (max-width: 520px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
 }
 
     nav{display:flex;gap:20px;align-items:center;font-size:14px;font-weight:700;color:#34465d}
