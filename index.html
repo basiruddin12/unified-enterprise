@@ -184,8 +184,21 @@
           <p><b>Email:</b> <a href="mailto:unifiedenter@gmail.com">unifiedenter@gmail.com</a></p>
         </div>
         <div class="contact-box">
-          <h3>Ask About a Service</h3>
-          <p class="muted">Call or WhatsApp us to ask about availability, documents required, service charges and working hours.</p>
+          <h3>Send Enquiry</h3>
+          <p class="muted">For enquiries and appointments, please fill in the form below.</p>
+          <form action="https://formsubmit.co/unifiedenter@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Enquiry - Unified Enterprise">
+            <input type="hidden" name="_template" value="table">
+            <label for="enquiry-name">Full Name*</label>
+            <input id="enquiry-name" type="text" name="Full Name" placeholder="Enter your full name" required style="display:block;width:100%;padding:12px;margin:6px 0 14px;border:1px solid var(--line);border-radius:8px;font:inherit">
+            <label for="enquiry-phone">Contact Number*</label>
+            <input id="enquiry-phone" type="tel" name="Contact Number" placeholder="Enter your contact number" required style="display:block;width:100%;padding:12px;margin:6px 0 14px;border:1px solid var(--line);border-radius:8px;font:inherit">
+            <label for="enquiry-email">Email*</label>
+            <input id="enquiry-email" type="email" name="Email" placeholder="Enter your email address" required style="display:block;width:100%;padding:12px;margin:6px 0 14px;border:1px solid var(--line);border-radius:8px;font:inherit">
+            <label for="enquiry-message">Message*</label>
+            <textarea id="enquiry-message" name="Message" rows="4" placeholder="Write your enquiry or appointment request" required style="display:block;width:100%;padding:12px;margin:6px 0 16px;border:1px solid var(--line);border-radius:8px;font:inherit;resize:vertical"></textarea>
+            <button type="submit" class="btn" style="border:0;cursor:pointer">Submit</button>
+          </form>
           </div>
       </div>
       <p class="notice">Important notice: Unified Enterprise is an independent service assistance point and is not represented as a government department. Government, Aadhaar, banking, telecom and financial services are subject to official eligibility, authorisation, provider availability and applicable fees. Aadhaar enrolment/update and banking transactions must only be carried out through properly authorised channels.</p>
