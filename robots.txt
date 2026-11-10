@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://basiruddin12.github.io/unified-enterprise/sitemap.xml
